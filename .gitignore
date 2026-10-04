@@ -1,0 +1,32 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# 仮想環境
+.venv/
+venv/
+
+# テスト・カバレッジ
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 環境変数・認証情報
+.env
+.env.*
+!.env.example
+
+# IDE・OS
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
